@@ -54,6 +54,7 @@ nav ul li a {
     text-decoration: none;
     padding: 0.5rem 1.5rem;
     display: block;
+    font-size: 1.2rem;
 }
 
 nav ul li a:hover {
@@ -66,7 +67,6 @@ nav ul li a.visited {
 
 ul {
     list-style: none;
-    
 }
 
 
@@ -97,6 +97,7 @@ h2 {
 p {
     margin-bottom: 1rem;
     line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 blockquote {
@@ -115,6 +116,7 @@ img {
     width: 100%;
     height: auto;
     margin: 1.5rem 0;
+    border-radius: 0.25rem;
 }
 
 iframe {
@@ -125,3 +127,16 @@ iframe {
 
 }
 
+.lista-conceptos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-conceptos li {
+    flex: 1 1 200px;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    text-align: center;
+}
